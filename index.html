@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RIVALS Skin Vault</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="desktop">
+      <div class="window" id="explorer-window">
+        <div class="title-bar">
+          <div class="title-bar-text">
+            <span class="title-bar-icon">🖴</span>
+            RIVALS Skin Vault
+          </div>
+          <div class="title-bar-controls">
+            <button aria-label="Minimize">_</button>
+            <button aria-label="Maximize">▢</button>
+            <button aria-label="Close" id="close-btn">✕</button>
+          </div>
+        </div>
+
+        <div class="menu-bar">
+          <span>File</span><span>Edit</span><span>View</span><span>Favorites</span><span>Help</span>
+        </div>
+
+        <div class="toolbar">
+          <button id="back-btn" title="Back">⬅ Back</button>
+          <button id="up-btn" title="Up one level">⬆ Up</button>
+          <div class="address-bar">
+            <span class="address-label">Address</span>
+            <span id="address-path" class="address-path">images</span>
+          </div>
+        </div>
+
+        <div class="explorer-body">
+          <aside class="sidebar">
+            <div class="sidebar-title">Folders</div>
+            <div id="folder-tree" class="folder-tree"></div>
+          </aside>
+
+          <main class="content-pane" id="content-pane">
+            <!-- icons injected here -->
+          </main>
+        </div>
+
+        <div class="status-bar">
+          <span id="status-text">0 object(s)</span>
+          <span class="status-sep"></span>
+          <span id="status-hint">Click a PNG to download it</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="taskbar">
+      <button class="start-btn" id="start-btn">
+        <span class="start-icon">🪟</span> Start
+      </button>
+      <div class="taskbar-sep"></div>
+      <div class="taskbar-item active">🖴 RIVALS Skin Vault</div>
+      <div class="taskbar-clock" id="clock">12:00 PM</div>
+    </div>
+
+    <div class="start-menu" id="start-menu">
+      <div class="start-menu-side">RIVALS<br />Skin Vault</div>
+      <div class="start-menu-items">
+        <div class="start-menu-item" data-action="home">🏠 Home</div>
+        <div class="start-menu-item" data-action="about">❓ About</div>
+        <div class="start-menu-item" data-action="shutdown">⏻ Shut Down...</div>
+      </div>
+    </div>
+
+    <div class="modal-overlay" id="modal-overlay">
+      <div class="window modal-window">
+        <div class="title-bar">
+          <div class="title-bar-text"><span id="modal-title">Message</span></div>
+          <div class="title-bar-controls">
+            <button aria-label="Close" id="modal-close">✕</button>
+          </div>
+        </div>
+        <div class="modal-body" id="modal-body"></div>
+        <div class="modal-buttons">
+          <button id="modal-ok">OK</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
