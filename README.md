@@ -73,3 +73,4 @@ connect the repo); no build command is needed since it's plain HTML/CSS/JS.
 - `scripts/generate-manifest.js` — scans `images/` and writes `manifest.json`.
 - `scripts/make_placeholder_pngs.py` — one-off helper that created the sample
   placeholder PNGs; safe to ignore or delete.
+
