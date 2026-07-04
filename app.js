@@ -14,6 +14,16 @@
   let currentPath = []; // array of folder names below root, e.g. ["Knife", "Chroma"]
   const history = [];
 
+  const PINNED_FOLDER = "Standard Weapons";
+
+  function sortedFolders(folders) {
+    return [...folders].sort((a, b) => {
+      if (a.name === PINNED_FOLDER) return -1;
+      if (b.name === PINNED_FOLDER) return 1;
+      return a.name.localeCompare(b.name);
+    });
+  }
+
   function showModal(title, message) {
     modalTitle.textContent = title;
     modalBody.textContent = message;
@@ -40,7 +50,7 @@
   }
 
   function buildTree(node, path, container) {
-    node.folders.forEach((folder) => {
+    sortedFolders(node.folders).forEach((folder) => {
       const folderPath = [...path, folder.name];
       const row = document.createElement("div");
       row.className = "tree-node";
@@ -125,7 +135,7 @@
       contentPane.innerHTML = `<div class="empty-state">This folder is empty.<br />Drop some PNGs into it and re-run the manifest generator.</div>`;
     }
 
-    node.folders.forEach((folder) => {
+    sortedFolders(node.folders).forEach((folder) => {
       const item = document.createElement("div");
       item.className = "icon-item";
       const count = folder.folders.length + folder.files.length;

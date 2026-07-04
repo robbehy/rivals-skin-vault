@@ -2,242 +2,6 @@
   "name": "images",
   "folders": [
     {
-      "name": "! Standard Weapons",
-      "folders": [],
-      "files": [
-        {
-          "name": "Assault Rifle.png",
-          "path": "images/! Standard Weapons/Assault Rifle.png",
-          "size": "369.7 KB"
-        },
-        {
-          "name": "Battle Axe.png",
-          "path": "images/! Standard Weapons/Battle Axe.png",
-          "size": "267.9 KB"
-        },
-        {
-          "name": "Bow.png",
-          "path": "images/! Standard Weapons/Bow.png",
-          "size": "86.7 KB"
-        },
-        {
-          "name": "Burst Rifle.png",
-          "path": "images/! Standard Weapons/Burst Rifle.png",
-          "size": "317.5 KB"
-        },
-        {
-          "name": "Chainsaw.png",
-          "path": "images/! Standard Weapons/Chainsaw.png",
-          "size": "570.2 KB"
-        },
-        {
-          "name": "Crossbow.png",
-          "path": "images/! Standard Weapons/Crossbow.png",
-          "size": "322.5 KB"
-        },
-        {
-          "name": "Daggers.png",
-          "path": "images/! Standard Weapons/Daggers.png",
-          "size": "139.9 KB"
-        },
-        {
-          "name": "Distortion.png",
-          "path": "images/! Standard Weapons/Distortion.png",
-          "size": "561.7 KB"
-        },
-        {
-          "name": "Energy Pistols.png",
-          "path": "images/! Standard Weapons/Energy Pistols.png",
-          "size": "259.9 KB"
-        },
-        {
-          "name": "Energy Rifle.png",
-          "path": "images/! Standard Weapons/Energy Rifle.png",
-          "size": "388.4 KB"
-        },
-        {
-          "name": "Exogun.png",
-          "path": "images/! Standard Weapons/Exogun.png",
-          "size": "313.0 KB"
-        },
-        {
-          "name": "Fists.png",
-          "path": "images/! Standard Weapons/Fists.png",
-          "size": "798.5 KB"
-        },
-        {
-          "name": "Flamethrower.png",
-          "path": "images/! Standard Weapons/Flamethrower.png",
-          "size": "374.5 KB"
-        },
-        {
-          "name": "Flare Gun.png",
-          "path": "images/! Standard Weapons/Flare Gun.png",
-          "size": "145.4 KB"
-        },
-        {
-          "name": "Flashbang.png",
-          "path": "images/! Standard Weapons/Flashbang.png",
-          "size": "255.1 KB"
-        },
-        {
-          "name": "Freeze Ray.png",
-          "path": "images/! Standard Weapons/Freeze Ray.png",
-          "size": "474.2 KB"
-        },
-        {
-          "name": "Grenade Launcher.png",
-          "path": "images/! Standard Weapons/Grenade Launcher.png",
-          "size": "377.1 KB"
-        },
-        {
-          "name": "Grenade.png",
-          "path": "images/! Standard Weapons/Grenade.png",
-          "size": "324.8 KB"
-        },
-        {
-          "name": "Gunblade.png",
-          "path": "images/! Standard Weapons/Gunblade.png",
-          "size": "187.7 KB"
-        },
-        {
-          "name": "Handgun.png",
-          "path": "images/! Standard Weapons/Handgun.png",
-          "size": "164.3 KB"
-        },
-        {
-          "name": "Jump Pad.png",
-          "path": "images/! Standard Weapons/Jump Pad.png",
-          "size": "493.5 KB"
-        },
-        {
-          "name": "Katana.png",
-          "path": "images/! Standard Weapons/Katana.png",
-          "size": "84.0 KB"
-        },
-        {
-          "name": "Knife.png",
-          "path": "images/! Standard Weapons/Knife.png",
-          "size": "121.2 KB"
-        },
-        {
-          "name": "Maul.png",
-          "path": "images/! Standard Weapons/Maul.png",
-          "size": "314.2 KB"
-        },
-        {
-          "name": "Medkit.png",
-          "path": "images/! Standard Weapons/Medkit.png",
-          "size": "468.0 KB"
-        },
-        {
-          "name": "Minigun.png",
-          "path": "images/! Standard Weapons/Minigun.png",
-          "size": "641.0 KB"
-        },
-        {
-          "name": "Molotov.png",
-          "path": "images/! Standard Weapons/Molotov.png",
-          "size": "165.9 KB"
-        },
-        {
-          "name": "Paintball Gun.png",
-          "path": "images/! Standard Weapons/Paintball Gun.png",
-          "size": "237.6 KB"
-        },
-        {
-          "name": "Permafrost.png",
-          "path": "images/! Standard Weapons/Permafrost.png",
-          "size": "509.6 KB"
-        },
-        {
-          "name": "Revolver.png",
-          "path": "images/! Standard Weapons/Revolver.png",
-          "size": "174.6 KB"
-        },
-        {
-          "name": "Riot Shield.png",
-          "path": "images/! Standard Weapons/Riot Shield.png",
-          "size": "362.7 KB"
-        },
-        {
-          "name": "RPG.png",
-          "path": "images/! Standard Weapons/RPG.png",
-          "size": "306.5 KB"
-        },
-        {
-          "name": "Satchel.png",
-          "path": "images/! Standard Weapons/Satchel.png",
-          "size": "644.6 KB"
-        },
-        {
-          "name": "Scythe.png",
-          "path": "images/! Standard Weapons/Scythe.png",
-          "size": "160.5 KB"
-        },
-        {
-          "name": "Shorty.png",
-          "path": "images/! Standard Weapons/Shorty.png",
-          "size": "228.1 KB"
-        },
-        {
-          "name": "Shotgun.png",
-          "path": "images/! Standard Weapons/Shotgun.png",
-          "size": "313.9 KB"
-        },
-        {
-          "name": "Slingshot.png",
-          "path": "images/! Standard Weapons/Slingshot.png",
-          "size": "217.4 KB"
-        },
-        {
-          "name": "Smoke Grenade.png",
-          "path": "images/! Standard Weapons/Smoke Grenade.png",
-          "size": "330.1 KB"
-        },
-        {
-          "name": "Sniper.png",
-          "path": "images/! Standard Weapons/Sniper.png",
-          "size": "281.4 KB"
-        },
-        {
-          "name": "Spray.png",
-          "path": "images/! Standard Weapons/Spray.png",
-          "size": "148.5 KB"
-        },
-        {
-          "name": "Subspace Tripmine.png",
-          "path": "images/! Standard Weapons/Subspace Tripmine.png",
-          "size": "180.4 KB"
-        },
-        {
-          "name": "Trowel.png",
-          "path": "images/! Standard Weapons/Trowel.png",
-          "size": "65.6 KB"
-        },
-        {
-          "name": "Uzi.png",
-          "path": "images/! Standard Weapons/Uzi.png",
-          "size": "138.5 KB"
-        },
-        {
-          "name": "War Horn.png",
-          "path": "images/! Standard Weapons/War Horn.png",
-          "size": "360.8 KB"
-        },
-        {
-          "name": "Warper.png",
-          "path": "images/! Standard Weapons/Warper.png",
-          "size": "365.1 KB"
-        },
-        {
-          "name": "Warpstone.png",
-          "path": "images/! Standard Weapons/Warpstone.png",
-          "size": "280.1 KB"
-        }
-      ]
-    },
-    {
       "name": "Skin Case 1",
       "folders": [],
       "files": [
@@ -460,6 +224,247 @@
           "name": "Whoopee Cushion.png",
           "path": "images/Skin Case 1/Whoopee Cushion.png",
           "size": "174.2 KB"
+        }
+      ]
+    },
+    {
+      "name": "Skin Case 2",
+      "folders": [],
+      "files": []
+    },
+    {
+      "name": "Standard Weapons",
+      "folders": [],
+      "files": [
+        {
+          "name": "Assault Rifle.png",
+          "path": "images/Standard Weapons/Assault Rifle.png",
+          "size": "369.7 KB"
+        },
+        {
+          "name": "Battle Axe.png",
+          "path": "images/Standard Weapons/Battle Axe.png",
+          "size": "267.9 KB"
+        },
+        {
+          "name": "Bow.png",
+          "path": "images/Standard Weapons/Bow.png",
+          "size": "86.7 KB"
+        },
+        {
+          "name": "Burst Rifle.png",
+          "path": "images/Standard Weapons/Burst Rifle.png",
+          "size": "317.5 KB"
+        },
+        {
+          "name": "Chainsaw.png",
+          "path": "images/Standard Weapons/Chainsaw.png",
+          "size": "570.2 KB"
+        },
+        {
+          "name": "Crossbow.png",
+          "path": "images/Standard Weapons/Crossbow.png",
+          "size": "322.5 KB"
+        },
+        {
+          "name": "Daggers.png",
+          "path": "images/Standard Weapons/Daggers.png",
+          "size": "139.9 KB"
+        },
+        {
+          "name": "Distortion.png",
+          "path": "images/Standard Weapons/Distortion.png",
+          "size": "561.7 KB"
+        },
+        {
+          "name": "Energy Pistols.png",
+          "path": "images/Standard Weapons/Energy Pistols.png",
+          "size": "259.9 KB"
+        },
+        {
+          "name": "Energy Rifle.png",
+          "path": "images/Standard Weapons/Energy Rifle.png",
+          "size": "388.4 KB"
+        },
+        {
+          "name": "Exogun.png",
+          "path": "images/Standard Weapons/Exogun.png",
+          "size": "313.0 KB"
+        },
+        {
+          "name": "Fists.png",
+          "path": "images/Standard Weapons/Fists.png",
+          "size": "798.5 KB"
+        },
+        {
+          "name": "Flamethrower.png",
+          "path": "images/Standard Weapons/Flamethrower.png",
+          "size": "374.5 KB"
+        },
+        {
+          "name": "Flare Gun.png",
+          "path": "images/Standard Weapons/Flare Gun.png",
+          "size": "145.4 KB"
+        },
+        {
+          "name": "Flashbang.png",
+          "path": "images/Standard Weapons/Flashbang.png",
+          "size": "255.1 KB"
+        },
+        {
+          "name": "Freeze Ray.png",
+          "path": "images/Standard Weapons/Freeze Ray.png",
+          "size": "474.2 KB"
+        },
+        {
+          "name": "Grenade Launcher.png",
+          "path": "images/Standard Weapons/Grenade Launcher.png",
+          "size": "377.1 KB"
+        },
+        {
+          "name": "Grenade.png",
+          "path": "images/Standard Weapons/Grenade.png",
+          "size": "324.8 KB"
+        },
+        {
+          "name": "Gunblade.png",
+          "path": "images/Standard Weapons/Gunblade.png",
+          "size": "187.7 KB"
+        },
+        {
+          "name": "Handgun.png",
+          "path": "images/Standard Weapons/Handgun.png",
+          "size": "164.3 KB"
+        },
+        {
+          "name": "Jump Pad.png",
+          "path": "images/Standard Weapons/Jump Pad.png",
+          "size": "493.5 KB"
+        },
+        {
+          "name": "Katana.png",
+          "path": "images/Standard Weapons/Katana.png",
+          "size": "84.0 KB"
+        },
+        {
+          "name": "Knife.png",
+          "path": "images/Standard Weapons/Knife.png",
+          "size": "121.2 KB"
+        },
+        {
+          "name": "Maul.png",
+          "path": "images/Standard Weapons/Maul.png",
+          "size": "314.2 KB"
+        },
+        {
+          "name": "Medkit.png",
+          "path": "images/Standard Weapons/Medkit.png",
+          "size": "468.0 KB"
+        },
+        {
+          "name": "Minigun.png",
+          "path": "images/Standard Weapons/Minigun.png",
+          "size": "641.0 KB"
+        },
+        {
+          "name": "Molotov.png",
+          "path": "images/Standard Weapons/Molotov.png",
+          "size": "165.9 KB"
+        },
+        {
+          "name": "Paintball Gun.png",
+          "path": "images/Standard Weapons/Paintball Gun.png",
+          "size": "237.6 KB"
+        },
+        {
+          "name": "Permafrost.png",
+          "path": "images/Standard Weapons/Permafrost.png",
+          "size": "509.6 KB"
+        },
+        {
+          "name": "Revolver.png",
+          "path": "images/Standard Weapons/Revolver.png",
+          "size": "174.6 KB"
+        },
+        {
+          "name": "Riot Shield.png",
+          "path": "images/Standard Weapons/Riot Shield.png",
+          "size": "362.7 KB"
+        },
+        {
+          "name": "RPG.png",
+          "path": "images/Standard Weapons/RPG.png",
+          "size": "306.5 KB"
+        },
+        {
+          "name": "Satchel.png",
+          "path": "images/Standard Weapons/Satchel.png",
+          "size": "644.6 KB"
+        },
+        {
+          "name": "Scythe.png",
+          "path": "images/Standard Weapons/Scythe.png",
+          "size": "160.5 KB"
+        },
+        {
+          "name": "Shorty.png",
+          "path": "images/Standard Weapons/Shorty.png",
+          "size": "228.1 KB"
+        },
+        {
+          "name": "Shotgun.png",
+          "path": "images/Standard Weapons/Shotgun.png",
+          "size": "313.9 KB"
+        },
+        {
+          "name": "Slingshot.png",
+          "path": "images/Standard Weapons/Slingshot.png",
+          "size": "217.4 KB"
+        },
+        {
+          "name": "Smoke Grenade.png",
+          "path": "images/Standard Weapons/Smoke Grenade.png",
+          "size": "330.1 KB"
+        },
+        {
+          "name": "Sniper.png",
+          "path": "images/Standard Weapons/Sniper.png",
+          "size": "281.4 KB"
+        },
+        {
+          "name": "Spray.png",
+          "path": "images/Standard Weapons/Spray.png",
+          "size": "148.5 KB"
+        },
+        {
+          "name": "Subspace Tripmine.png",
+          "path": "images/Standard Weapons/Subspace Tripmine.png",
+          "size": "180.4 KB"
+        },
+        {
+          "name": "Trowel.png",
+          "path": "images/Standard Weapons/Trowel.png",
+          "size": "65.6 KB"
+        },
+        {
+          "name": "Uzi.png",
+          "path": "images/Standard Weapons/Uzi.png",
+          "size": "138.5 KB"
+        },
+        {
+          "name": "War Horn.png",
+          "path": "images/Standard Weapons/War Horn.png",
+          "size": "360.8 KB"
+        },
+        {
+          "name": "Warper.png",
+          "path": "images/Standard Weapons/Warper.png",
+          "size": "365.1 KB"
+        },
+        {
+          "name": "Warpstone.png",
+          "path": "images/Standard Weapons/Warpstone.png",
+          "size": "280.1 KB"
         }
       ]
     },
