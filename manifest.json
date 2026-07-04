@@ -2,238 +2,464 @@
   "name": "images",
   "folders": [
     {
-      "name": "Standard Weapons",
+      "name": "! Standard Weapons",
       "folders": [],
       "files": [
         {
           "name": "Assault Rifle.png",
-          "path": "images/Standard Weapons/Assault Rifle.png",
+          "path": "images/! Standard Weapons/Assault Rifle.png",
           "size": "369.7 KB"
         },
         {
           "name": "Battle Axe.png",
-          "path": "images/Standard Weapons/Battle Axe.png",
+          "path": "images/! Standard Weapons/Battle Axe.png",
           "size": "267.9 KB"
         },
         {
           "name": "Bow.png",
-          "path": "images/Standard Weapons/Bow.png",
+          "path": "images/! Standard Weapons/Bow.png",
           "size": "86.7 KB"
         },
         {
           "name": "Burst Rifle.png",
-          "path": "images/Standard Weapons/Burst Rifle.png",
+          "path": "images/! Standard Weapons/Burst Rifle.png",
           "size": "317.5 KB"
         },
         {
           "name": "Chainsaw.png",
-          "path": "images/Standard Weapons/Chainsaw.png",
+          "path": "images/! Standard Weapons/Chainsaw.png",
           "size": "570.2 KB"
         },
         {
           "name": "Crossbow.png",
-          "path": "images/Standard Weapons/Crossbow.png",
+          "path": "images/! Standard Weapons/Crossbow.png",
           "size": "322.5 KB"
         },
         {
           "name": "Daggers.png",
-          "path": "images/Standard Weapons/Daggers.png",
+          "path": "images/! Standard Weapons/Daggers.png",
           "size": "139.9 KB"
         },
         {
           "name": "Distortion.png",
-          "path": "images/Standard Weapons/Distortion.png",
+          "path": "images/! Standard Weapons/Distortion.png",
           "size": "561.7 KB"
         },
         {
           "name": "Energy Pistols.png",
-          "path": "images/Standard Weapons/Energy Pistols.png",
+          "path": "images/! Standard Weapons/Energy Pistols.png",
           "size": "259.9 KB"
         },
         {
           "name": "Energy Rifle.png",
-          "path": "images/Standard Weapons/Energy Rifle.png",
+          "path": "images/! Standard Weapons/Energy Rifle.png",
           "size": "388.4 KB"
         },
         {
           "name": "Exogun.png",
-          "path": "images/Standard Weapons/Exogun.png",
+          "path": "images/! Standard Weapons/Exogun.png",
           "size": "313.0 KB"
         },
         {
           "name": "Fists.png",
-          "path": "images/Standard Weapons/Fists.png",
+          "path": "images/! Standard Weapons/Fists.png",
           "size": "798.5 KB"
         },
         {
           "name": "Flamethrower.png",
-          "path": "images/Standard Weapons/Flamethrower.png",
+          "path": "images/! Standard Weapons/Flamethrower.png",
           "size": "374.5 KB"
         },
         {
           "name": "Flare Gun.png",
-          "path": "images/Standard Weapons/Flare Gun.png",
+          "path": "images/! Standard Weapons/Flare Gun.png",
           "size": "145.4 KB"
         },
         {
           "name": "Flashbang.png",
-          "path": "images/Standard Weapons/Flashbang.png",
+          "path": "images/! Standard Weapons/Flashbang.png",
           "size": "255.1 KB"
         },
         {
           "name": "Freeze Ray.png",
-          "path": "images/Standard Weapons/Freeze Ray.png",
+          "path": "images/! Standard Weapons/Freeze Ray.png",
           "size": "474.2 KB"
         },
         {
           "name": "Grenade Launcher.png",
-          "path": "images/Standard Weapons/Grenade Launcher.png",
+          "path": "images/! Standard Weapons/Grenade Launcher.png",
           "size": "377.1 KB"
         },
         {
           "name": "Grenade.png",
-          "path": "images/Standard Weapons/Grenade.png",
+          "path": "images/! Standard Weapons/Grenade.png",
           "size": "324.8 KB"
         },
         {
           "name": "Gunblade.png",
-          "path": "images/Standard Weapons/Gunblade.png",
+          "path": "images/! Standard Weapons/Gunblade.png",
           "size": "187.7 KB"
         },
         {
           "name": "Handgun.png",
-          "path": "images/Standard Weapons/Handgun.png",
+          "path": "images/! Standard Weapons/Handgun.png",
           "size": "164.3 KB"
         },
         {
           "name": "Jump Pad.png",
-          "path": "images/Standard Weapons/Jump Pad.png",
+          "path": "images/! Standard Weapons/Jump Pad.png",
           "size": "493.5 KB"
         },
         {
           "name": "Katana.png",
-          "path": "images/Standard Weapons/Katana.png",
+          "path": "images/! Standard Weapons/Katana.png",
           "size": "84.0 KB"
         },
         {
           "name": "Knife.png",
-          "path": "images/Standard Weapons/Knife.png",
+          "path": "images/! Standard Weapons/Knife.png",
           "size": "121.2 KB"
         },
         {
           "name": "Maul.png",
-          "path": "images/Standard Weapons/Maul.png",
+          "path": "images/! Standard Weapons/Maul.png",
           "size": "314.2 KB"
         },
         {
           "name": "Medkit.png",
-          "path": "images/Standard Weapons/Medkit.png",
+          "path": "images/! Standard Weapons/Medkit.png",
           "size": "468.0 KB"
         },
         {
           "name": "Minigun.png",
-          "path": "images/Standard Weapons/Minigun.png",
+          "path": "images/! Standard Weapons/Minigun.png",
           "size": "641.0 KB"
         },
         {
           "name": "Molotov.png",
-          "path": "images/Standard Weapons/Molotov.png",
+          "path": "images/! Standard Weapons/Molotov.png",
           "size": "165.9 KB"
         },
         {
           "name": "Paintball Gun.png",
-          "path": "images/Standard Weapons/Paintball Gun.png",
+          "path": "images/! Standard Weapons/Paintball Gun.png",
           "size": "237.6 KB"
         },
         {
           "name": "Permafrost.png",
-          "path": "images/Standard Weapons/Permafrost.png",
+          "path": "images/! Standard Weapons/Permafrost.png",
           "size": "509.6 KB"
         },
         {
           "name": "Revolver.png",
-          "path": "images/Standard Weapons/Revolver.png",
+          "path": "images/! Standard Weapons/Revolver.png",
           "size": "174.6 KB"
         },
         {
           "name": "Riot Shield.png",
-          "path": "images/Standard Weapons/Riot Shield.png",
+          "path": "images/! Standard Weapons/Riot Shield.png",
           "size": "362.7 KB"
         },
         {
           "name": "RPG.png",
-          "path": "images/Standard Weapons/RPG.png",
+          "path": "images/! Standard Weapons/RPG.png",
           "size": "306.5 KB"
         },
         {
           "name": "Satchel.png",
-          "path": "images/Standard Weapons/Satchel.png",
+          "path": "images/! Standard Weapons/Satchel.png",
           "size": "644.6 KB"
         },
         {
           "name": "Scythe.png",
-          "path": "images/Standard Weapons/Scythe.png",
+          "path": "images/! Standard Weapons/Scythe.png",
           "size": "160.5 KB"
         },
         {
           "name": "Shorty.png",
-          "path": "images/Standard Weapons/Shorty.png",
+          "path": "images/! Standard Weapons/Shorty.png",
           "size": "228.1 KB"
         },
         {
           "name": "Shotgun.png",
-          "path": "images/Standard Weapons/Shotgun.png",
+          "path": "images/! Standard Weapons/Shotgun.png",
           "size": "313.9 KB"
         },
         {
           "name": "Slingshot.png",
-          "path": "images/Standard Weapons/Slingshot.png",
+          "path": "images/! Standard Weapons/Slingshot.png",
           "size": "217.4 KB"
         },
         {
           "name": "Smoke Grenade.png",
-          "path": "images/Standard Weapons/Smoke Grenade.png",
+          "path": "images/! Standard Weapons/Smoke Grenade.png",
           "size": "330.1 KB"
         },
         {
           "name": "Sniper.png",
-          "path": "images/Standard Weapons/Sniper.png",
+          "path": "images/! Standard Weapons/Sniper.png",
           "size": "281.4 KB"
         },
         {
           "name": "Spray.png",
-          "path": "images/Standard Weapons/Spray.png",
+          "path": "images/! Standard Weapons/Spray.png",
           "size": "148.5 KB"
         },
         {
           "name": "Subspace Tripmine.png",
-          "path": "images/Standard Weapons/Subspace Tripmine.png",
+          "path": "images/! Standard Weapons/Subspace Tripmine.png",
           "size": "180.4 KB"
         },
         {
           "name": "Trowel.png",
-          "path": "images/Standard Weapons/Trowel.png",
+          "path": "images/! Standard Weapons/Trowel.png",
           "size": "65.6 KB"
         },
         {
           "name": "Uzi.png",
-          "path": "images/Standard Weapons/Uzi.png",
+          "path": "images/! Standard Weapons/Uzi.png",
           "size": "138.5 KB"
         },
         {
           "name": "War Horn.png",
-          "path": "images/Standard Weapons/War Horn.png",
+          "path": "images/! Standard Weapons/War Horn.png",
           "size": "360.8 KB"
         },
         {
           "name": "Warper.png",
-          "path": "images/Standard Weapons/Warper.png",
+          "path": "images/! Standard Weapons/Warper.png",
           "size": "365.1 KB"
         },
         {
           "name": "Warpstone.png",
-          "path": "images/Standard Weapons/Warpstone.png",
+          "path": "images/! Standard Weapons/Warpstone.png",
           "size": "280.1 KB"
+        }
+      ]
+    },
+    {
+      "name": "Skin Case 1",
+      "folders": [],
+      "files": [
+        {
+          "name": "Aces.png",
+          "path": "images/Skin Case 1/Aces.png",
+          "size": "123.1 KB"
+        },
+        {
+          "name": "Advanced Satchel.png",
+          "path": "images/Skin Case 1/Advanced Satchel.png",
+          "size": "486.0 KB"
+        },
+        {
+          "name": "AK-47.png",
+          "path": "images/Skin Case 1/AK-47.png",
+          "size": "263.9 KB"
+        },
+        {
+          "name": "Balloon Shotgun.png",
+          "path": "images/Skin Case 1/Balloon Shotgun.png",
+          "size": "467.2 KB"
+        },
+        {
+          "name": "Blaster.png",
+          "path": "images/Skin Case 1/Blaster.png",
+          "size": "274.7 KB"
+        },
+        {
+          "name": "Blobsaw.png",
+          "path": "images/Skin Case 1/Blobsaw.png",
+          "size": "365.9 KB"
+        },
+        {
+          "name": "Boxing Gloves.png",
+          "path": "images/Skin Case 1/Boxing Gloves.png",
+          "size": "511.6 KB"
+        },
+        {
+          "name": "Chancla.png",
+          "path": "images/Skin Case 1/Chancla.png",
+          "size": "161.6 KB"
+        },
+        {
+          "name": "Coffee.png",
+          "path": "images/Skin Case 1/Coffee.png",
+          "size": "105.8 KB"
+        },
+        {
+          "name": "Compound Bow.png",
+          "path": "images/Skin Case 1/Compound Bow.png",
+          "size": "146.9 KB"
+        },
+        {
+          "name": "Cyber Warpstone.png",
+          "path": "images/Skin Case 1/Cyber Warpstone.png",
+          "size": "392.4 KB"
+        },
+        {
+          "name": "Desert Eagle.png",
+          "path": "images/Skin Case 1/Desert Eagle.png",
+          "size": "257.0 KB"
+        },
+        {
+          "name": "Disco Ball.png",
+          "path": "images/Skin Case 1/Disco Ball.png",
+          "size": "216.8 KB"
+        },
+        {
+          "name": "Don't Press.png",
+          "path": "images/Skin Case 1/Don't Press.png",
+          "size": "288.2 KB"
+        },
+        {
+          "name": "Door.png",
+          "path": "images/Skin Case 1/Door.png",
+          "size": "361.9 KB"
+        },
+        {
+          "name": "Electro Rifle.png",
+          "path": "images/Skin Case 1/Electro Rifle.png",
+          "size": "641.3 KB"
+        },
+        {
+          "name": "Emoji Cloud.png",
+          "path": "images/Skin Case 1/Emoji Cloud.png",
+          "size": "494.7 KB"
+        },
+        {
+          "name": "Firework Gun.png",
+          "path": "images/Skin Case 1/Firework Gun.png",
+          "size": "145.5 KB"
+        },
+        {
+          "name": "Glitter Warper.png",
+          "path": "images/Skin Case 1/Glitter Warper.png",
+          "size": "621.2 KB"
+        },
+        {
+          "name": "Hacker Pistols.png",
+          "path": "images/Skin Case 1/Hacker Pistols.png",
+          "size": "394.2 KB"
+        },
+        {
+          "name": "Hacker Rifle.png",
+          "path": "images/Skin Case 1/Hacker Rifle.png",
+          "size": "634.3 KB"
+        },
+        {
+          "name": "Hyper Gunblade.png",
+          "path": "images/Skin Case 1/Hyper Gunblade.png",
+          "size": "189.3 KB"
+        },
+        {
+          "name": "Lasergun 3000.png",
+          "path": "images/Skin Case 1/Lasergun 3000.png",
+          "size": "636.7 KB"
+        },
+        {
+          "name": "Lovely Spray.png",
+          "path": "images/Skin Case 1/Lovely Spray.png",
+          "size": "159.0 KB"
+        },
+        {
+          "name": "Not So Shorty.png",
+          "path": "images/Skin Case 1/Not So Shorty.png",
+          "size": "180.6 KB"
+        },
+        {
+          "name": "Nuke Launcher.png",
+          "path": "images/Skin Case 1/Nuke Launcher.png",
+          "size": "332.0 KB"
+        },
+        {
+          "name": "Pixel Crossbow.png",
+          "path": "images/Skin Case 1/Pixel Crossbow.png",
+          "size": "272.9 KB"
+        },
+        {
+          "name": "Pixel Flamethrower.png",
+          "path": "images/Skin Case 1/Pixel Flamethrower.png",
+          "size": "273.1 KB"
+        },
+        {
+          "name": "Pixel Sniper.png",
+          "path": "images/Skin Case 1/Pixel Sniper.png",
+          "size": "214.9 KB"
+        },
+        {
+          "name": "Plasma Distortion.png",
+          "path": "images/Skin Case 1/Plasma Distortion.png",
+          "size": "705.7 KB"
+        },
+        {
+          "name": "Plastic Shovel.png",
+          "path": "images/Skin Case 1/Plastic Shovel.png",
+          "size": "135.2 KB"
+        },
+        {
+          "name": "Saber.png",
+          "path": "images/Skin Case 1/Saber.png",
+          "size": "118.0 KB"
+        },
+        {
+          "name": "Sandwich.png",
+          "path": "images/Skin Case 1/Sandwich.png",
+          "size": "393.7 KB"
+        },
+        {
+          "name": "Scythe of Death.png",
+          "path": "images/Skin Case 1/Scythe of Death.png",
+          "size": "176.0 KB"
+        },
+        {
+          "name": "Singularity.png",
+          "path": "images/Skin Case 1/Singularity.png",
+          "size": "245.4 KB"
+        },
+        {
+          "name": "Slime Gun.png",
+          "path": "images/Skin Case 1/Slime Gun.png",
+          "size": "323.6 KB"
+        },
+        {
+          "name": "Stick.png",
+          "path": "images/Skin Case 1/Stick.png",
+          "size": "250.5 KB"
+        },
+        {
+          "name": "Swashbuckler.png",
+          "path": "images/Skin Case 1/Swashbuckler.png",
+          "size": "410.1 KB"
+        },
+        {
+          "name": "Temporal Ray.png",
+          "path": "images/Skin Case 1/Temporal Ray.png",
+          "size": "583.1 KB"
+        },
+        {
+          "name": "The Shred.png",
+          "path": "images/Skin Case 1/The Shred.png",
+          "size": "339.8 KB"
+        },
+        {
+          "name": "Trampoline.png",
+          "path": "images/Skin Case 1/Trampoline.png",
+          "size": "329.3 KB"
+        },
+        {
+          "name": "Trumpet.png",
+          "path": "images/Skin Case 1/Trumpet.png",
+          "size": "520.2 KB"
+        },
+        {
+          "name": "Water Uzi.png",
+          "path": "images/Skin Case 1/Water Uzi.png",
+          "size": "173.2 KB"
+        },
+        {
+          "name": "Whoopee Cushion.png",
+          "path": "images/Skin Case 1/Whoopee Cushion.png",
+          "size": "174.2 KB"
         }
       ]
     },
