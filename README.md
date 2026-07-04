@@ -1,4 +1,4 @@
-# RIVALS Skin Vault
+# RIVALS Vault
 
 A Windows 95-themed static website for browsing and downloading PNG weapon/skin
 images for the Roblox game RIVALS. It works like a mini File Explorer: folders

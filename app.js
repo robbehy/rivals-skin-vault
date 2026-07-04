@@ -5,9 +5,7 @@
   const statusTextEl = document.getElementById("status-text");
   const backBtn = document.getElementById("back-btn");
   const upBtn = document.getElementById("up-btn");
-  const clockEl = document.getElementById("clock");
-  const startBtn = document.getElementById("start-btn");
-  const startMenu = document.getElementById("start-menu");
+  const downloadAllBtn = document.getElementById("download-all-btn");
   const modalOverlay = document.getElementById("modal-overlay");
   const modalTitle = document.getElementById("modal-title");
   const modalBody = document.getElementById("modal-body");
@@ -29,44 +27,8 @@
   document.getElementById("modal-ok").addEventListener("click", closeModal);
   document.getElementById("modal-close").addEventListener("click", closeModal);
   document.getElementById("close-btn").addEventListener("click", () => {
-    showModal("RIVALS Skin Vault", "Nice try. This window can't be closed.");
+    showModal("RIVALS Vault", "Nice try. This window can't be closed.");
   });
-
-  startBtn.addEventListener("click", (e) => {
-    e.stopPropagation();
-    startMenu.classList.toggle("open");
-  });
-
-  document.addEventListener("click", () => startMenu.classList.remove("open"));
-  startMenu.addEventListener("click", (e) => e.stopPropagation());
-
-  startMenu.addEventListener("click", (e) => {
-    const item = e.target.closest(".start-menu-item");
-    if (!item) return;
-    const action = item.dataset.action;
-    startMenu.classList.remove("open");
-    if (action === "home") {
-      navigateTo([]);
-    } else if (action === "about") {
-      showModal(
-        "About RIVALS Skin Vault",
-        "A humble PNG storage cabinet for RIVALS weapon skins. Click any file to download it. Est. 2026."
-      );
-    } else if (action === "shutdown") {
-      showModal("Shut Down", "It is now safe to close this browser tab.");
-    }
-  });
-
-  function updateClock() {
-    const now = new Date();
-    let hours = now.getHours();
-    const minutes = String(now.getMinutes()).padStart(2, "0");
-    const ampm = hours >= 12 ? "PM" : "AM";
-    hours = hours % 12 || 12;
-    clockEl.textContent = `${hours}:${minutes} ${ampm}`;
-  }
-  updateClock();
-  setInterval(updateClock, 1000 * 30);
 
   function findNode(path) {
     let node = manifest;
@@ -116,6 +78,37 @@
     a.remove();
   }
 
+  async function downloadAllInFolder(node, zipName) {
+    const originalLabel = downloadAllBtn.textContent;
+    downloadAllBtn.disabled = true;
+    downloadAllBtn.textContent = "Zipping...";
+    try {
+      const zip = new JSZip();
+      await Promise.all(
+        node.files.map(async (file) => {
+          const res = await fetch(file.path);
+          const blob = await res.blob();
+          zip.file(file.name, blob);
+        })
+      );
+      const content = await zip.generateAsync({ type: "blob" });
+      const url = URL.createObjectURL(content);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = `${zipName}.zip`;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+    } catch (err) {
+      showModal("Download All", "Something went wrong zipping these files. Try again.");
+      console.error(err);
+    } finally {
+      downloadAllBtn.disabled = false;
+      downloadAllBtn.textContent = originalLabel;
+    }
+  }
+
   function renderContent() {
     const node = findNode(currentPath);
     contentPane.innerHTML = "";
@@ -158,6 +151,16 @@
     });
 
     statusTextEl.textContent = `${totalItems} object(s)`;
+
+    if (node.files.length > 0) {
+      downloadAllBtn.hidden = false;
+      downloadAllBtn.textContent = `⬇ Download All (${node.files.length})`;
+      const zipName = currentPath.length ? currentPath[currentPath.length - 1] : "images";
+      downloadAllBtn.onclick = () => downloadAllInFolder(node, zipName);
+    } else {
+      downloadAllBtn.hidden = true;
+      downloadAllBtn.onclick = null;
+    }
   }
 
   function renderAddress() {

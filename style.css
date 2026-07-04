@@ -74,7 +74,7 @@ button:active {
 
 /* ---- Desktop ---- */
 .desktop {
-  height: calc(100% - 30px);
+  height: 100%;
   width: 100%;
   padding: 20px;
   display: flex;
@@ -177,6 +177,15 @@ button:active {
 
 .address-path {
   font-family: monospace;
+}
+
+.download-all-btn {
+  white-space: nowrap;
+}
+
+.download-all-btn:disabled {
+  color: var(--gray-dark);
+  cursor: default;
 }
 
 .explorer-body {
@@ -307,105 +316,6 @@ button:active {
   height: 12px;
   background: var(--gray-dark);
   box-shadow: 1px 0 0 var(--white);
-}
-
-/* ---- Taskbar ---- */
-.taskbar {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 30px;
-  background: var(--gray);
-  border-top: 1px solid var(--white);
-  display: flex;
-  align-items: center;
-  padding: 2px 4px;
-  gap: 6px;
-  z-index: 50;
-}
-
-.start-btn {
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  gap: 4px;
-}
-
-.start-icon {
-  font-size: 14px;
-}
-
-.taskbar-sep {
-  width: 2px;
-  height: 22px;
-  border-left: 1px solid var(--gray-dark);
-  border-right: 1px solid var(--white);
-}
-
-.taskbar-item {
-  border-top: 1px solid var(--gray-darker);
-  border-left: 1px solid var(--gray-darker);
-  border-right: 1px solid var(--white);
-  border-bottom: 1px solid var(--white);
-  box-shadow: inset 1px 1px 0 var(--gray-dark);
-  padding: 3px 10px;
-  font-size: 12px;
-}
-
-.taskbar-clock {
-  margin-left: auto;
-  border-top: 1px solid var(--gray-darker);
-  border-left: 1px solid var(--gray-darker);
-  padding: 3px 10px;
-  box-shadow: inset 1px 1px 0 var(--gray-dark);
-}
-
-/* ---- Start menu ---- */
-.start-menu {
-  position: fixed;
-  bottom: 30px;
-  left: 2px;
-  width: 220px;
-  background: var(--gray);
-  display: none;
-  border-top: 2px solid var(--white);
-  border-left: 2px solid var(--white);
-  border-right: 2px solid var(--gray-darker);
-  border-bottom: 2px solid var(--gray-darker);
-  z-index: 60;
-}
-
-.start-menu.open {
-  display: flex;
-}
-
-.start-menu-side {
-  background: linear-gradient(180deg, var(--navy), var(--navy-light));
-  color: var(--white);
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
-  font-weight: bold;
-  font-size: 16px;
-  padding: 8px 4px;
-  text-align: right;
-}
-
-.start-menu-items {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  padding: 4px;
-}
-
-.start-menu-item {
-  padding: 6px 8px;
-  cursor: pointer;
-}
-
-.start-menu-item:hover {
-  background: var(--navy);
-  color: var(--white);
 }
 
 /* ---- Modal ---- */

@@ -3,9 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>RIVALS Skin Vault</title>
+    <title>RIVALS Vault</title>
     <link rel="stylesheet" href="style.css" />
-    <!-- deploy-test-marker -->
   </head>
   <body>
     <div class="desktop">
@@ -13,7 +12,7 @@
         <div class="title-bar">
           <div class="title-bar-text">
             <span class="title-bar-icon">🖴</span>
-            RIVALS Skin Vault
+            RIVALS Vault
           </div>
           <div class="title-bar-controls">
             <button aria-label="Minimize">_</button>
@@ -33,6 +32,7 @@
             <span class="address-label">Address</span>
             <span id="address-path" class="address-path">images</span>
           </div>
+          <button id="download-all-btn" class="download-all-btn" hidden>⬇ Download All</button>
         </div>
 
         <div class="explorer-body">
@@ -54,24 +54,6 @@
       </div>
     </div>
 
-    <div class="taskbar">
-      <button class="start-btn" id="start-btn">
-        <span class="start-icon">🪟</span> Start
-      </button>
-      <div class="taskbar-sep"></div>
-      <div class="taskbar-item active">🖴 RIVALS Skin Vault</div>
-      <div class="taskbar-clock" id="clock">12:00 PM</div>
-    </div>
-
-    <div class="start-menu" id="start-menu">
-      <div class="start-menu-side">RIVALS<br />Skin Vault</div>
-      <div class="start-menu-items">
-        <div class="start-menu-item" data-action="home">🏠 Home</div>
-        <div class="start-menu-item" data-action="about">❓ About</div>
-        <div class="start-menu-item" data-action="shutdown">⏻ Shut Down...</div>
-      </div>
-    </div>
-
     <div class="modal-overlay" id="modal-overlay">
       <div class="window modal-window">
         <div class="title-bar">
@@ -87,6 +69,7 @@
       </div>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
     <script src="app.js"></script>
   </body>
 </html>
